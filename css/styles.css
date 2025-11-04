@@ -543,6 +543,32 @@ img {
   width: 85%;
 }
 
+button.button {
+  background-color: var(--first-color);
+  color: #fff;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+button.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+button.button .button-icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: 0.3s;
+}
+
 /* QUALIFICATION */
 .qualification-tabs {
   display: flex;
