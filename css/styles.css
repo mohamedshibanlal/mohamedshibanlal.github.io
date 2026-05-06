@@ -1042,8 +1042,7 @@ button.button .button-icon {
     gap: .5rem;
   }
   .services-container {
-    grid-template-columns: max-content;
-    justify-content: center;
+    grid-template-columns: repeat(2, 270px);
   }
   .services-container .services-content {
     padding-right: 6rem;
