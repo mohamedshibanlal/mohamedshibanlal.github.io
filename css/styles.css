@@ -1287,7 +1287,7 @@ button.button .button-icon {
     transform: translateX(-5rem);
   }
   .services-container {
-    grid-template-columns: repeat(3, 270px);
+    grid-template-columns: repeat(2, 270px);
   }
   .portfolio-container {
     margin-bottom: 2.5rem;
