@@ -1239,7 +1239,7 @@ button.button .button-icon {
     margin: 0 var(--mb-1-5);
   }
   .services-container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 218px);
     justify-content: center;
   }
   .services-container .services-icon {
